@@ -103,7 +103,8 @@ function analyzeSalesData(data, options) {
             .sort((productA, productB) => productB.quantity - productA.quantity)
             .slice(0, 10);
     });
-
+  
+    // ls
     return sellerStats.map(seller => ({
         seller_id: seller.id,
         name: seller.name,
