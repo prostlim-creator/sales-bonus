@@ -90,6 +90,7 @@ function analyzeSalesData(data, options) {
                 + item.quantity;
         });
 
+        
         seller.revenue += totalAmount;
     });
 
