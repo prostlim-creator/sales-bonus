@@ -104,7 +104,7 @@ function analyzeSalesData(data, options) {
             .slice(0, 10);
     });
   
-    // ls
+    
     return sellerStats.map(seller => ({
         seller_id: seller.id,
         name: seller.name,
